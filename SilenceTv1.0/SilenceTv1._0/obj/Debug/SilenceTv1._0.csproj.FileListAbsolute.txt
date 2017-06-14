@@ -1,0 +1,15 @@
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\SilenceTv1._0.dll
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\SilenceTv1._0.pdb
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Core.dll
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Platform.dll
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Core.pdb
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Core.xml
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.csprojResolveAssemblyReference.cache
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.MainPage.xaml.g.cs
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.App.xaml.g.cs
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.dll
+D:\SilenceTv1.0\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.pdb
