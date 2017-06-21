@@ -4,8 +4,13 @@
              xmlns:local="clr-namespace:SilenceTv1._0"
              x:Class="SilenceTv1._0.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="Welcome to Xamarin Forms999999999999999" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+    <Button Text="Play"
+             Clicked="Button_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
 
+    
 </ContentPage>

@@ -1,0 +1,2 @@
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\SilenceTv1._0.UWP.csproj;x86
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\SilenceTv1._0.csproj;neutral
