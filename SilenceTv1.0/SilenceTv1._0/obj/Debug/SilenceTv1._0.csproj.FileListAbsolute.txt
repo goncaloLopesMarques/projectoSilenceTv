@@ -28,7 +28,6 @@ D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.F
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.csprojResolveAssemblyReference.cache
-D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.MainPage.xaml.g.cs
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.App.xaml.g.cs
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.dll
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.pdb
@@ -42,3 +41,7 @@ D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\System.pd
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\Mono.Security.pdb
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\System.Core.pdb
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\System.Xml.pdb
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.Views.MainPage.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.Views.Page1.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.Views.Page2.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\obj\Debug\SilenceTv1._0.Views.Page3.xaml.g.cs

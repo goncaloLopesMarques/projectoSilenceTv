@@ -13,7 +13,7 @@ namespace SilenceTv1._0
         {
             InitializeComponent();
 
-            MainPage = new SilenceTv1._0.MainPage();
+            MainPage = new SilenceTv1._0.Views.MainPage();
         }
 
         protected override void OnStart()
