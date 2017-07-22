@@ -1,10 +1,13 @@
 WinMetadata\Windows.winmd
-Assets\gato.png
+Assets\background.png.png
+Assets\folder.png
+Assets\home.png
 Assets\LockScreenLogo.scale-100.png
 Assets\LockScreenLogo.scale-125.png
 Assets\LockScreenLogo.scale-150.png
 Assets\LockScreenLogo.scale-200.png
 Assets\LockScreenLogo.scale-400.png
+Assets\play.png
 Assets\SplashScreen.scale-100.png
 Assets\SplashScreen.scale-125.png
 Assets\SplashScreen.scale-150.png

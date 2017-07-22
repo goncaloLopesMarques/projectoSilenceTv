@@ -109,7 +109,10 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Assets\menu.png" />
-    <Content Include="Assets\gato.png" />
+    <Content Include="Assets\background.png.png" />
+    <Content Include="Assets\folder.png" />
+    <Content Include="Assets\home.png" />
+    <Content Include="Assets\play.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-100.png" />
     <Content Include="Assets\LockScreenLogo.scale-125.png" />

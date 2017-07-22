@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-26T17:09:57.605</Modified>
+      <Modified>2017-07-22T00:31:02.914</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\bin\x86\Debug\SilenceTv1._0.UWP.exe">
       <PackagePath>entrypoint\SilenceTv1._0.UWP.exe</PackagePath>
-      <Modified>2017-06-26T17:09:56.723</Modified>
+      <Modified>2017-07-22T00:30:55.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\goncalo\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -521,11 +521,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\SilenceTv1._0.dll">
       <PackagePath>SilenceTv1._0.dll</PackagePath>
-      <Modified>2017-06-26T17:09:53.630</Modified>
+      <Modified>2017-07-22T00:18:46.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\gato.png">
-      <PackagePath>Assets\gato.png</PackagePath>
-      <Modified>2017-06-25T17:38:49.158</Modified>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\background.png.png">
+      <PackagePath>Assets\background.png.png</PackagePath>
+      <Modified>2017-06-27T16:50:57.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\folder.png">
+      <PackagePath>Assets\folder.png</PackagePath>
+      <Modified>2017-07-21T20:54:39.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
+      <Modified>2017-07-21T21:01:42.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\play.png">
+      <PackagePath>Assets\play.png</PackagePath>
+      <Modified>2017-06-27T17:01:35.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -700,11 +712,11 @@
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-26T16:57:24.283</Modified>
+      <Modified>2017-07-21T23:54:40.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\bin\x86\Debug\Core\SilenceTv1._0.UWP.exe">
       <PackagePath>SilenceTv1._0.UWP.exe</PackagePath>
-      <Modified>2017-06-26T17:09:57.601</Modified>
+      <Modified>2017-07-22T00:31:02.908</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

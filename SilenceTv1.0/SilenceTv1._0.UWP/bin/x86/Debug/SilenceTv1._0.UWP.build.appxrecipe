@@ -391,8 +391,17 @@
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0\bin\Debug\SilenceTv1._0.dll">
       <PackagePath>SilenceTv1._0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\gato.png">
-      <PackagePath>Assets\gato.png</PackagePath>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\background.png.png">
+      <PackagePath>Assets\background.png.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\folder.png">
+      <PackagePath>Assets\folder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\play.png">
+      <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>

@@ -127,3 +127,7 @@ D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\X
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll.stamp
 D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll.stamp
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\res\drawable\background.png.png
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\res\drawable\play.png
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\res\drawable\folder.png
+D:\SilenceTv1.0\projectoSilenceTv\SilenceTv1.0\SilenceTv1._0.Android\obj\Debug\res\drawable\home.png
