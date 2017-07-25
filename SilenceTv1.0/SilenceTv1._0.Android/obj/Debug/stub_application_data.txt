@@ -1,2 +1,0 @@
-android.app.Application
-SilenceTv1.x_0.Android
