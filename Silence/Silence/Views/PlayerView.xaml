@@ -8,6 +8,10 @@
              Clicked="Button_Clicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
+            <Button Text="Record"
+             Clicked="ButtonRecord_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
             <Label Text="Pagina Player" />
         </StackLayout>
     </ContentPage.Content>

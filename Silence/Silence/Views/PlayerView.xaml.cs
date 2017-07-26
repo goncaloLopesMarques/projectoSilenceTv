@@ -21,10 +21,11 @@ namespace Silence.Views
         }
         private void Button_Clicked(object sender, EventArgs e)
         {
-            // await CrossMediaManager.Current.Play("http://www.montemagno.com/sample.mp3");
+            DependencyService.Get<ISound>().Initializer();
             DependencyService.Get<ISound>().Play(aux);
-
-
+        }
+        private void ButtonRecord_Clicked(object sender, EventArgs e)
+        {
 
         }
     }
