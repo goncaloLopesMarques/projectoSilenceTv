@@ -4,8 +4,17 @@
              x:Class="Silence.Views.PlayerView">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Play"
-             Clicked="Button_Clicked"
+            <Button
+            BackgroundColor="White"
+            WidthRequest="150"
+            HeightRequest="150"
+            BorderColor="Black"
+            Image="play.png"                    
+            Clicked="ButtonPlay_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+            <Button Text="Pause"
+             Clicked="ButtonPause_Clicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
             <Button Text="Record"

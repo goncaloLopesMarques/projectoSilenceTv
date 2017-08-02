@@ -40,6 +40,7 @@
     </Compile>
     <Compile Include="ISound.cs" />
     <Compile Include="MenuItems\MasterPageItem.cs" />
+    <Compile Include="ViewModel\GravacoesListViewModel.cs" />
     <Compile Include="ViewModel\HomeListViewModel.cs" />
     <Compile Include="Views\Gravacoes.xaml.cs">
       <DependentUpon>Gravacoes.xaml</DependentUpon>

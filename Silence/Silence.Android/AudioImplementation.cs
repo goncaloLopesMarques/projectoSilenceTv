@@ -12,84 +12,111 @@ using Android.Widget;
 using Android.Media;
 using Silence.Droid;
 using Xamarin.Forms;
-
-
+using Com.Google.Android.Exoplayer2.Trackselection;
+using Com.Google.Android.Exoplayer2;
+using Uri = Android.Net.Uri;
+using Com.Google.Android.Exoplayer2.Upstream;
+using Com.Google.Android.Exoplayer2.Extractor;
+using Com.Google.Android.Exoplayer2.Source;
+using Java.Net;
+using Android.Util;
+using Java.IO;
 
 [assembly: Dependency(typeof(AudioImplementation))]
 namespace Silence.Droid
 {
     class AudioImplementation : ISound
     {
-        private MediaPlayer mediaPlayer;
-        private MediaRecorder recorder;
+        //Components do exoPlayer
+        public TrackSelector trackSelector;
+        Handler handler;
+        ILoadControl loadControl;
+        Context context = Android.App.Application.Context;
+        public SimpleExoPlayer exoPlayer;
+        Uri audioUri;
+        DefaultHttpDataSourceFactory dataSourceFactory;
+        IExtractorsFactory extractor;
+        IMediaSource audioSource;
+        private DefaultAllocator allocator;
+        public long DEFAULT_BUFFER_FOR_PLAYBACK_AFTER_REBUFFER_MS { get; private set; }
         
+        //fim da defenição de variaveis
 
         public AudioImplementation() { }
 
-       
-
-        public void Initializer()
-        {
-            mediaPlayer = new MediaPlayer();
-            mediaPlayer.SetAudioStreamType(Stream.Music);
-            
+        public void Initializer(string aux)
+          {
+            allocator = new DefaultAllocator(true,500);
+            handler = new Handler();
+            trackSelector = new DefaultTrackSelector();
+            loadControl = new DefaultLoadControl(allocator, 500, 550, 250, DEFAULT_BUFFER_FOR_PLAYBACK_AFTER_REBUFFER_MS);
+            exoPlayer = ExoPlayerFactory.NewSimpleInstance(context, trackSelector, loadControl);
+            audioUri = Uri.Parse(aux);
+            dataSourceFactory = new DefaultHttpDataSourceFactory("SilenceTvAudioPlayer");
+            extractor = new DefaultExtractorsFactory();
+            audioSource = new ExtractorMediaSource(audioUri, dataSourceFactory, extractor, null, null);
             
         }
-
-        public void Play(string aux)
-        {
-            if (mediaPlayer == null)
+     
+        public void Play(String aux)
+        { 
+            if (exoPlayer == null)
             {
-                Initializer();
-            }
-            try
-            {
-                mediaPlayer.SetDataSource(aux);
-                mediaPlayer.Prepare();
-                mediaPlayer.Start();
-            }
-            catch (Exception ex)
-            {
-                //unable to start playback log error
-                Console.WriteLine("Unable to start playback: " + ex);
-            }
-        }
-
-        public void RecordAudio()
-        {
-            string audioFilePath = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath + "/teste.3gp";
-
-
-            if (recorder == null)
-            {
-                try
-                {
-                    MediaRecorder recorder = new MediaRecorder();
-                    recorder.SetAudioSource(AudioSource.Mic);
-                    recorder.SetOutputFormat(OutputFormat.ThreeGpp);
-                    recorder.SetAudioEncoder(AudioEncoder.AmrNb);
-                    recorder.SetOutputFile(audioFilePath);
-                    recorder.Prepare();
-                    recorder.Start();   // Recording is now started }
-
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Unable to record: " + ex);
-                }
+                Initializer(aux);
             }
             else
             {
                 try
                 {
-                    recorder.Stop();
-                    recorder.Reset();   // You can reuse the object by going back to setAudioSource() step
-                    recorder.Release(); // Now the object cannot be reused
-                } catch (Exception ex1) {
-                    Console.WriteLine("Unable stop record: " + ex1);
+                    exoPlayer.Prepare(audioSource);
+                    exoPlayer.PlayWhenReady = true;
+
                 }
-               
+                catch (Exception ex)
+                {
+                    System.Console.WriteLine("Unable to start playback: " + ex);
+                }
             }
+        }
+
+        public void Pause()
+        {
+            if (exoPlayer == null)
+            {
+                return;
+            }
+            else {
+                exoPlayer.PlayWhenReady = false;
+            }
+        }
+
+        public async void RecordAudio(String aux)
+        {
+            try
+            {
+                int count;
+                URL url = new URL(aux);
+                URLConnection conexion = url.OpenConnection();
+                await conexion.ConnectAsync();
+                InputStream input = new BufferedInputStream(url.OpenStream());
+                OutputStream output = new FileOutputStream("/sdcard/teste.mp3");
+
+                byte[] data = new byte[1024];
+                long total = 0;
+                while ((count = input.Read(data)) != -1)
+                {
+                    total += count;
+                    output.Write(data, 0, count);
+                }
+                output.Flush();
+                output.Close();
+                input.Close();
+            }
+            catch(Exception ex)
+            {
+                System.Console.WriteLine("Unable to start playback: " + ex);
+            }
+           
         }
     }
 }

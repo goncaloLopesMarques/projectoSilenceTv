@@ -2,6 +2,90 @@ Silence.Droid.MainActivity, Silence.Android;md5779bc1990b9cb568807b52a6922406c7.
 Silence.Droid.MainActivity, Silence.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5779bc1990b9cb568807b52a6922406c7.MainActivity
 Silence.Droid.MainActivity;md5779bc1990b9cb568807b52a6922406c7.MainActivity
 silence.droid.MainActivity;md5779bc1990b9cb568807b52a6922406c7.MainActivity
+Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver/IListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver+IListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver.IListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
+mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.AudioTrack/IListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.audio.AudioTrack_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.AudioTrack+IListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.audio.AudioTrack_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.AudioTrack.IListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioTrack_ListenerImplementor
+mono.com.google.android.exoplayer2.audio.AudioTrack_ListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioTrack_ListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.IAudioRendererEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.audio.AudioRendererEventListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.IAudioRendererEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.audio.AudioRendererEventListenerImplementor
+Com.Google.Android.Exoplayer2.Audio.IAudioRendererEventListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioRendererEventListenerImplementor
+mono.com.google.android.exoplayer2.audio.AudioRendererEventListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioRendererEventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.DefaultDrmSessionManager/IEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.drm.DefaultDrmSessionManager_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.DefaultDrmSessionManager+IEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.drm.DefaultDrmSessionManager_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.DefaultDrmSessionManager.IEventListenerImplementor;mono.com.google.android.exoplayer2.drm.DefaultDrmSessionManager_EventListenerImplementor
+mono.com.google.android.exoplayer2.drm.DefaultDrmSessionManager_EventListenerImplementor;mono.com.google.android.exoplayer2.drm.DefaultDrmSessionManager_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.IExoMediaDrmOnEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.drm.ExoMediaDrm_OnEventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.IExoMediaDrmOnEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.drm.ExoMediaDrm_OnEventListenerImplementor
+Com.Google.Android.Exoplayer2.Drm.IExoMediaDrmOnEventListenerImplementor;mono.com.google.android.exoplayer2.drm.ExoMediaDrm_OnEventListenerImplementor
+mono.com.google.android.exoplayer2.drm.ExoMediaDrm_OnEventListenerImplementor;mono.com.google.android.exoplayer2.drm.ExoMediaDrm_OnEventListenerImplementor
+Com.Google.Android.Exoplayer2.Extractor.DefaultTrackOutput/IUpstreamFormatChangedListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.extractor.DefaultTrackOutput_UpstreamFormatChangedListenerImplementor
+Com.Google.Android.Exoplayer2.Extractor.DefaultTrackOutput+IUpstreamFormatChangedListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.extractor.DefaultTrackOutput_UpstreamFormatChangedListenerImplementor
+Com.Google.Android.Exoplayer2.Extractor.DefaultTrackOutput.IUpstreamFormatChangedListenerImplementor;mono.com.google.android.exoplayer2.extractor.DefaultTrackOutput_UpstreamFormatChangedListenerImplementor
+mono.com.google.android.exoplayer2.extractor.DefaultTrackOutput_UpstreamFormatChangedListenerImplementor;mono.com.google.android.exoplayer2.extractor.DefaultTrackOutput_UpstreamFormatChangedListenerImplementor
+Com.Google.Android.Exoplayer2.IExoPlayerEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.ExoPlayer_EventListenerImplementor
+Com.Google.Android.Exoplayer2.IExoPlayerEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.ExoPlayer_EventListenerImplementor
+Com.Google.Android.Exoplayer2.IExoPlayerEventListenerImplementor;mono.com.google.android.exoplayer2.ExoPlayer_EventListenerImplementor
+mono.com.google.android.exoplayer2.ExoPlayer_EventListenerImplementor;mono.com.google.android.exoplayer2.ExoPlayer_EventListenerImplementor
+Com.Google.Android.Exoplayer2.SimpleExoPlayer/IVideoListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.SimpleExoPlayer_VideoListenerImplementor
+Com.Google.Android.Exoplayer2.SimpleExoPlayer+IVideoListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.SimpleExoPlayer_VideoListenerImplementor
+Com.Google.Android.Exoplayer2.SimpleExoPlayer.IVideoListenerImplementor;mono.com.google.android.exoplayer2.SimpleExoPlayer_VideoListenerImplementor
+mono.com.google.android.exoplayer2.SimpleExoPlayer_VideoListenerImplementor;mono.com.google.android.exoplayer2.SimpleExoPlayer_VideoListenerImplementor
+Com.Google.Android.Exoplayer2.Source.ExtractorMediaSource/IEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.ExtractorMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.ExtractorMediaSource+IEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.ExtractorMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.ExtractorMediaSource.IEventListenerImplementor;mono.com.google.android.exoplayer2.source.ExtractorMediaSource_EventListenerImplementor
+mono.com.google.android.exoplayer2.source.ExtractorMediaSource_EventListenerImplementor;mono.com.google.android.exoplayer2.source.ExtractorMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker/IPlaylistEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PlaylistEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker+IPlaylistEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PlaylistEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker.IPlaylistEventListenerImplementor;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PlaylistEventListenerImplementor
+mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PlaylistEventListenerImplementor;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PlaylistEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker/IPrimaryPlaylistListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PrimaryPlaylistListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker+IPrimaryPlaylistListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PrimaryPlaylistListenerImplementor
+Com.Google.Android.Exoplayer2.Source.Hls.Playlist.HlsPlaylistTracker.IPrimaryPlaylistListenerImplementor;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PrimaryPlaylistListenerImplementor
+mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PrimaryPlaylistListenerImplementor;mono.com.google.android.exoplayer2.source.hls.playlist.HlsPlaylistTracker_PrimaryPlaylistListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IAdaptiveMediaSourceEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.AdaptiveMediaSourceEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IAdaptiveMediaSourceEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.AdaptiveMediaSourceEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IAdaptiveMediaSourceEventListenerImplementor;mono.com.google.android.exoplayer2.source.AdaptiveMediaSourceEventListenerImplementor
+mono.com.google.android.exoplayer2.source.AdaptiveMediaSourceEventListenerImplementor;mono.com.google.android.exoplayer2.source.AdaptiveMediaSourceEventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IMediaSourceListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.MediaSource_ListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IMediaSourceListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.MediaSource_ListenerImplementor
+Com.Google.Android.Exoplayer2.Source.IMediaSourceListenerImplementor;mono.com.google.android.exoplayer2.source.MediaSource_ListenerImplementor
+mono.com.google.android.exoplayer2.source.MediaSource_ListenerImplementor;mono.com.google.android.exoplayer2.source.MediaSource_ListenerImplementor
+Com.Google.Android.Exoplayer2.Source.SingleSampleMediaSource/IEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.source.SingleSampleMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.SingleSampleMediaSource+IEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.source.SingleSampleMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Source.SingleSampleMediaSource.IEventListenerImplementor;mono.com.google.android.exoplayer2.source.SingleSampleMediaSource_EventListenerImplementor
+mono.com.google.android.exoplayer2.source.SingleSampleMediaSource_EventListenerImplementor;mono.com.google.android.exoplayer2.source.SingleSampleMediaSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Trackselection.TrackSelector/IInvalidationListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.trackselection.TrackSelector_InvalidationListenerImplementor
+Com.Google.Android.Exoplayer2.Trackselection.TrackSelector+IInvalidationListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.trackselection.TrackSelector_InvalidationListenerImplementor
+Com.Google.Android.Exoplayer2.Trackselection.TrackSelector.IInvalidationListenerImplementor;mono.com.google.android.exoplayer2.trackselection.TrackSelector_InvalidationListenerImplementor
+mono.com.google.android.exoplayer2.trackselection.TrackSelector_InvalidationListenerImplementor;mono.com.google.android.exoplayer2.trackselection.TrackSelector_InvalidationListenerImplementor
+Com.Google.Android.Exoplayer2.UI.PlaybackControlView/IVisibilityListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.ui.PlaybackControlView_VisibilityListenerImplementor
+Com.Google.Android.Exoplayer2.UI.PlaybackControlView+IVisibilityListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.ui.PlaybackControlView_VisibilityListenerImplementor
+Com.Google.Android.Exoplayer2.UI.PlaybackControlView.IVisibilityListenerImplementor;mono.com.google.android.exoplayer2.ui.PlaybackControlView_VisibilityListenerImplementor
+mono.com.google.android.exoplayer2.ui.PlaybackControlView_VisibilityListenerImplementor;mono.com.google.android.exoplayer2.ui.PlaybackControlView_VisibilityListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.CacheDataSource/IEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.upstream.cache.CacheDataSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.CacheDataSource+IEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.upstream.cache.CacheDataSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.CacheDataSource.IEventListenerImplementor;mono.com.google.android.exoplayer2.upstream.cache.CacheDataSource_EventListenerImplementor
+mono.com.google.android.exoplayer2.upstream.cache.CacheDataSource_EventListenerImplementor;mono.com.google.android.exoplayer2.upstream.cache.CacheDataSource_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.ICacheListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.upstream.cache.Cache_ListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.ICacheListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.upstream.cache.Cache_ListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.Cache.ICacheListenerImplementor;mono.com.google.android.exoplayer2.upstream.cache.Cache_ListenerImplementor
+mono.com.google.android.exoplayer2.upstream.cache.Cache_ListenerImplementor;mono.com.google.android.exoplayer2.upstream.cache.Cache_ListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.IBandwidthMeterEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.upstream.BandwidthMeter_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.IBandwidthMeterEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.upstream.BandwidthMeter_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.IBandwidthMeterEventListenerImplementor;mono.com.google.android.exoplayer2.upstream.BandwidthMeter_EventListenerImplementor
+mono.com.google.android.exoplayer2.upstream.BandwidthMeter_EventListenerImplementor;mono.com.google.android.exoplayer2.upstream.BandwidthMeter_EventListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.ITransferListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.upstream.TransferListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.ITransferListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.upstream.TransferListenerImplementor
+Com.Google.Android.Exoplayer2.Upstream.ITransferListenerImplementor;mono.com.google.android.exoplayer2.upstream.TransferListenerImplementor
+mono.com.google.android.exoplayer2.upstream.TransferListenerImplementor;mono.com.google.android.exoplayer2.upstream.TransferListenerImplementor
+Com.Google.Android.Exoplayer2.Video.IVideoRendererEventListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.video.VideoRendererEventListenerImplementor
+Com.Google.Android.Exoplayer2.Video.IVideoRendererEventListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.video.VideoRendererEventListenerImplementor
+Com.Google.Android.Exoplayer2.Video.IVideoRendererEventListenerImplementor;mono.com.google.android.exoplayer2.video.VideoRendererEventListenerImplementor
+mono.com.google.android.exoplayer2.video.VideoRendererEventListenerImplementor;mono.com.google.android.exoplayer2.video.VideoRendererEventListenerImplementor
 Android.Support.V4.App.SharedElementCallback/IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback.IOnSharedElementsReadyListenerImplementor;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor

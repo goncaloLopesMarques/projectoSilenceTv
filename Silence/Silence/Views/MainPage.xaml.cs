@@ -21,7 +21,7 @@ namespace Silence
             // icon on the left side, and page that you want to open after selection
             var page1 = new MasterPageItem() { Title = "Player", Icon = "play.png", TargetType = typeof(Silence.Views.PlayerView) };
             var page2 = new MasterPageItem() { Title = "Gravaçoes", Icon = "folder.png", TargetType = typeof(Silence.Views.Gravacoes) };
-            var page3 = new MasterPageItem() { Title = "Televisões", Icon = "home.png", TargetType = typeof(Silence.Views.HomePage) };
+            var page3 = new MasterPageItem() { Title = "Emissões", Icon = "home.png", TargetType = typeof(Silence.Views.HomePage) };
 
 
             // Adding menu items to menuList

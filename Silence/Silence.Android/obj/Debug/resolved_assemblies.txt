@@ -1,4 +1,5 @@
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Silence.Android.dll
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\ExoPlayer.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Android.Support.Annotations.dll

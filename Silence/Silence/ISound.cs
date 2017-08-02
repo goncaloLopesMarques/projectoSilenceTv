@@ -9,8 +9,9 @@ namespace Silence
    public interface ISound
     {
         void Play(String aux);
-        void Initializer();
-        void RecordAudio();
+        void Initializer(String aux);
+        void Pause();
+        void RecordAudio(String aux);
     }
    
 }

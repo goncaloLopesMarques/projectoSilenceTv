@@ -76,3 +76,7 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.A
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tv.png
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll.mdb
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\ExoPlayer.dll.mdb
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tape.png

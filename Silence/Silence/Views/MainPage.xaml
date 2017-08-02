@@ -9,16 +9,8 @@
                  BackgroundColor="#e8e8e8">
 
             <StackLayout Orientation="Vertical">
-
-                <!-- 
-             This StackLayout you can use for other
-             data that you want to have in your menu drawer
-        -->
-
-
                 <StackLayout BackgroundColor="#e74c3c"
                      HeightRequest="75">
-
                     <Label Text="Some Text title"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
@@ -31,11 +23,9 @@
                   SeparatorVisibility="None"
                   BackgroundColor="#e8e8e8"
                   ItemSelected="OnMenuItemSelected">
-
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-
                                 <!-- Main design for our menu items -->
                                 <StackLayout VerticalOptions="FillAndExpand"
                              Orientation="Horizontal"

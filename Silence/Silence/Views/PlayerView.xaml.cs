@@ -19,14 +19,18 @@ namespace Silence.Views
         {
             InitializeComponent();
         }
-        private void Button_Clicked(object sender, EventArgs e)
+        private void ButtonPlay_Clicked(object sender, EventArgs e)
         {
-            DependencyService.Get<ISound>().Initializer();
+            DependencyService.Get<ISound>().Initializer(aux);
             DependencyService.Get<ISound>().Play(aux);
+        }
+        private void ButtonPause_Clicked(object sender, EventArgs e)
+        {
+            DependencyService.Get<ISound>().Pause();
         }
         private void ButtonRecord_Clicked(object sender, EventArgs e)
         {
-
+            DependencyService.Get<ISound>().RecordAudio(aux);
         }
     }
 }
