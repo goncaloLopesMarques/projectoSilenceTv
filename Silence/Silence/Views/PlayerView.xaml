@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Silence.Views.PlayerView">
+             x:Class="Silence.Views.PlayerView"
+             Title="Player">
     <ContentPage.Content>
         <StackLayout>
             <Button
@@ -13,15 +14,15 @@
             Clicked="ButtonPlay_Clicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-            <Button Text="Pause"
+            <!--<Button Text="Pause"
              Clicked="ButtonPause_Clicked"
             HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" />
+            VerticalOptions="CenterAndExpand" />-->
             <Button Text="Record"
              Clicked="ButtonRecord_Clicked"
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand" />
-            <Label Text="Pagina Player" />
+          
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

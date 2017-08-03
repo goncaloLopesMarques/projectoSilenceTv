@@ -22268,20 +22268,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\goncalo\\.nuget\\packages\\": {}
+    "C:\\Users\\Pedro\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence.UWP\\Silence.UWP.csproj",
+      "projectUniqueName": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
       "projectName": "Silence.UWP",
-      "projectPath": "C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence.UWP\\Silence.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence.UWP\\project.json",
+      "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
+      "projectJsonPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence\\Silence.csproj": {
-              "projectPath": "C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence\\Silence.csproj"
+            "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj": {
+              "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj"
             }
           }
         }

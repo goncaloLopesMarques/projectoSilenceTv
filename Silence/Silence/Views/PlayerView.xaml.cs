@@ -13,7 +13,7 @@ namespace Silence.Views
     public partial class PlayerView : ContentPage
     {
         
-        private String aux = "http://192.168.1.169:8080";
+        private String aux = "http://10.20.228.10:8080";
        
         public PlayerView()
         {
@@ -21,13 +21,13 @@ namespace Silence.Views
         }
         private void ButtonPlay_Clicked(object sender, EventArgs e)
         {
-            DependencyService.Get<ISound>().Initializer(aux);
+            //DependencyService.Get<ISound>().Initializer(aux);
             DependencyService.Get<ISound>().Play(aux);
         }
-        private void ButtonPause_Clicked(object sender, EventArgs e)
-        {
-            DependencyService.Get<ISound>().Pause();
-        }
+        //private void ButtonPause_Clicked(object sender, EventArgs e)
+        //{
+        //    DependencyService.Get<ISound>().Pause();
+        //}
         private void ButtonRecord_Clicked(object sender, EventArgs e)
         {
             DependencyService.Get<ISound>().RecordAudio(aux);

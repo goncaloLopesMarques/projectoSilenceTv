@@ -57,7 +57,8 @@ namespace Silence.Droid
             audioSource = new ExtractorMediaSource(audioUri, dataSourceFactory, extractor, null, null);
             
         }
-     
+        
+
         public void Play(String aux)
         { 
             if (exoPlayer == null)
@@ -66,19 +67,27 @@ namespace Silence.Droid
             }
             else
             {
-                try
+                if(exoPlayer.PlayWhenReady == false)
                 {
-                    exoPlayer.Prepare(audioSource);
-                    exoPlayer.PlayWhenReady = true;
+                    try
+                    {
+                        exoPlayer.Prepare(audioSource);
+                        exoPlayer.PlayWhenReady = true;
 
+                    }
+                    catch (Exception ex)
+                    {
+                        System.Console.WriteLine("Unable to start playback: " + ex);
+                    }
                 }
-                catch (Exception ex)
+                else
                 {
-                    System.Console.WriteLine("Unable to start playback: " + ex);
+                    exoPlayer.PlayWhenReady = false;
                 }
+               
             }
         }
-
+/*
         public void Pause()
         {
             if (exoPlayer == null)
@@ -88,7 +97,7 @@ namespace Silence.Droid
             else {
                 exoPlayer.PlayWhenReady = false;
             }
-        }
+        }*/
 
         public async void RecordAudio(String aux)
         {

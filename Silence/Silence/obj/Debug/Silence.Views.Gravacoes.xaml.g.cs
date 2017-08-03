@@ -11,8 +11,8 @@
 namespace Silence.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\goncalo\\documents\\visual studio 2017\\Projects\\Silence\\Silence\\Silence\\Vi" +
-        "ews\\Gravacoes.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Views\\Gravaco" +
+        "es.xaml")]
     public partial class Gravacoes : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
