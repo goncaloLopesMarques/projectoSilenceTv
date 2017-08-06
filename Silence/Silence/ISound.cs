@@ -10,7 +10,7 @@ namespace Silence
     {
         void Play(String aux);
         void Initializer(String aux);
-        //void Pause();
+        void Pause();
         void RecordAudio(String aux);
     }
    

@@ -2,6 +2,7 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.A
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.Android.pdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.Android.apk
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.Android-Signed.apk
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\FormsViewGroup.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
@@ -25,6 +26,7 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.A
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.pdb
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Core.pdb
@@ -65,100 +67,17 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.A
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\play.png
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\home.png
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\folder.png
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tv.png
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tape.png
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\R.cs.flag
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\uploadflags.txt
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\Silence.Android.dll.mdb
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\ExoPlayer.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Silence.Android.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Silence.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tv.png
-C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll
-C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\bin\Debug\ExoPlayer.dll.mdb
-C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\ExoPlayer.dll.mdb
-C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\tape.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android.apk
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android-Signed.apk
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\ExoPlayer.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\FormsViewGroup.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Design.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v4.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Core.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Platform.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Xaml.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\ExoPlayer.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\FormsViewGroup.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\FormsViewGroup.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Core.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Core.xml
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\Silence.Android.csprojResolveAssemblyReference.cache
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Transition.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.Palette.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll.stamp
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\Silence.Android.dll
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\Silence.Android.pdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\bin\Silence.Android.apk
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\icon.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable-hdpi\icon.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable-xhdpi\icon.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable-xxhdpi\icon.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\layout\tabbar.xml
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\layout\toolbar.xml
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\values\styles.xml
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\play.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\home.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\folder.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\tv.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\tape.png
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\R.cs.flag
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\uploadflags.txt
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\ExoPlayer.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\Silence.Android.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\Silence.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\pause.png

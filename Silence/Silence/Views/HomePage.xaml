@@ -5,7 +5,8 @@
              Title="Emissoes">
     <ContentPage.Content>
         <ListView x:Name="TvList" RowHeight="60" IsPullToRefreshEnabled="True"
-                  RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}">
+                  RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}"
+                   SelectedItem="{Binding SelectedItem}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

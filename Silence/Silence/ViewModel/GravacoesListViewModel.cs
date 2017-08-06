@@ -28,7 +28,7 @@ namespace Silence.ViewModel
         {
             throw new NotImplementedException();
         }
-        async void RefreshListView()
+        void RefreshListView()
         {
             //aqui fica o codigo para preencher a lista!!!
             IsBusy = false;

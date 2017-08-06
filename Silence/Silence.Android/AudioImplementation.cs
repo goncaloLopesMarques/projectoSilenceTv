@@ -21,6 +21,7 @@ using Com.Google.Android.Exoplayer2.Source;
 using Java.Net;
 using Android.Util;
 using Java.IO;
+using Silence.Views;
 
 [assembly: Dependency(typeof(AudioImplementation))]
 namespace Silence.Droid
@@ -57,8 +58,7 @@ namespace Silence.Droid
             audioSource = new ExtractorMediaSource(audioUri, dataSourceFactory, extractor, null, null);
             
         }
-        
-
+     
         public void Play(String aux)
         { 
             if (exoPlayer == null)
@@ -67,13 +67,13 @@ namespace Silence.Droid
             }
             else
             {
-                if(exoPlayer.PlayWhenReady == false)
+                if (exoPlayer.PlayWhenReady == false)
                 {
                     try
                     {
+                        
                         exoPlayer.Prepare(audioSource);
                         exoPlayer.PlayWhenReady = true;
-
                     }
                     catch (Exception ex)
                     {
@@ -84,10 +84,9 @@ namespace Silence.Droid
                 {
                     exoPlayer.PlayWhenReady = false;
                 }
-               
             }
         }
-/*
+
         public void Pause()
         {
             if (exoPlayer == null)
@@ -97,7 +96,7 @@ namespace Silence.Droid
             else {
                 exoPlayer.PlayWhenReady = false;
             }
-        }*/
+        }
 
         public async void RecordAudio(String aux)
         {

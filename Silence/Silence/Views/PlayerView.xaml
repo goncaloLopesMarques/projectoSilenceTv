@@ -5,24 +5,22 @@
              Title="Player">
     <ContentPage.Content>
         <StackLayout>
-            <Button
-            BackgroundColor="White"
-            WidthRequest="150"
-            HeightRequest="150"
-            BorderColor="Black"
-            Image="play.png"                    
-            Clicked="ButtonPlay_Clicked"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" />
-            <!--<Button Text="Pause"
-             Clicked="ButtonPause_Clicked"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" />-->
+            <StackLayout x:Name="layoutLabel"/>
+            <Button x:Name="playBtn"
+                BackgroundColor="White"
+                WidthRequest="150"
+                HeightRequest="150"
+                Image="play.png"
+                BorderColor="Black"                    
+                Clicked="ButtonPlay_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+
             <Button Text="Record"
-             Clicked="ButtonRecord_Clicked"
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" />
-          
+                 Clicked="ButtonRecord_Clicked"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

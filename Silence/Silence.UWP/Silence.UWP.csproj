@@ -110,6 +110,7 @@
   <ItemGroup>
     <Content Include="Assets\folder.png" />
     <Content Include="Assets\home.png" />
+    <Content Include="Assets\pause.png" />
     <Content Include="Assets\play.png" />
     <Content Include="Assets\tape.png" />
     <Content Include="Assets\tv.png" />

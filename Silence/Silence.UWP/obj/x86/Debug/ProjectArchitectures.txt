@@ -1,2 +1,2 @@
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence.UWP\Silence.UWP.csproj;x86
-D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence\Silence.csproj;neutral
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.UWP\Silence.UWP.csproj;x86
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence\Silence.csproj;neutral
