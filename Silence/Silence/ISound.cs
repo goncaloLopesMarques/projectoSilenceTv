@@ -12,6 +12,7 @@ namespace Silence
         void Initializer(String aux);
         void Pause();
         void RecordAudio(String aux);
+        void StopStreamOnSwiping();
     }
    
 }

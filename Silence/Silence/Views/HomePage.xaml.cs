@@ -30,8 +30,8 @@ namespace Silence.Views
 
             elements = new ObservableCollection<HomeListViewModel>();
             elements.Add(new HomeListViewModel { Name= "Player1", Type ="emissão", Url = "http://192.168.1.64:8080", Image ="tv.png", index = 0});
-            elements.Add(new HomeListViewModel { Name = "Player2", Type = "emissão", Url = "http://192.168.1.64:8181", Image = "tv.png", index = 1});
-            elements.Add(new HomeListViewModel { Name = "Player3", Type = "emissão", Url = "http://192.168.1.169:8080", Image = "tv.png", index = 2});
+            elements.Add(new HomeListViewModel { Name = "Player2", Type = "emissão", Url = "http://192.168.1.64:7070", Image = "tv.png", index = 1});
+            elements.Add(new HomeListViewModel { Name = "Player3", Type = "emissão", Url = "http://192.168.1.64:6060", Image = "tv.png", index = 2});
             TvList.ItemsSource = elements;
             
         }

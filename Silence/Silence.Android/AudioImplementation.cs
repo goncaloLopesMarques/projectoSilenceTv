@@ -126,5 +126,18 @@ namespace Silence.Droid
             }
            
         }
+
+        public void StopStreamOnSwiping()
+        {
+
+            if (exoPlayer == null) {
+                return;
+            }
+            else
+            {
+                exoPlayer.Stop();
+                exoPlayer = null;
+            }
+        }
     }
 }

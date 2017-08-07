@@ -17,7 +17,6 @@ namespace Silence.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PlayerView : ContentPage
     {
-        private String aux;
         private int toogleImage = 0;
         private Button btnPlay;
         private HomePage homeAux;
@@ -29,6 +28,7 @@ namespace Silence.Views
             homeAux = new HomePage();
             model = selectedItem;
             Emissor.Text = model.Name;
+
             SwipeableImage.SwipedLeft += (sender, args) => {
                 if (model == homeAux.lastElement)
                 {
@@ -36,9 +36,13 @@ namespace Silence.Views
                 }
                 else
                 {
+                    DependencyService.Get<ISound>().StopStreamOnSwiping();
                     var indexaux = model.index;
                     indexaux +=1;
                     model = homeAux.elements.ElementAt(indexaux);
+                    btnPlay.Image = "play.png";
+                    toogleImage = 0;
+
                 }
                 Emissor.Text = model.Name;
             };
@@ -49,15 +53,18 @@ namespace Silence.Views
                 }
                 else
                 {
+                    DependencyService.Get<ISound>().StopStreamOnSwiping();
                     var indexaux = model.index;
                     indexaux-=1;
                     model = homeAux.elements.ElementAt(indexaux);
+                    btnPlay.Image = "play.png";
+                    toogleImage = 0;
                 }
 
                 Emissor.Text = model.Name;
             };
 
-            aux = model.Url;
+            
             btnPlay = playBtn;
 
            
@@ -69,19 +76,19 @@ namespace Silence.Views
             if(toogleImage == 0)
             {
                 btnPlay.Image = "pause.png";
-                DependencyService.Get<ISound>().Initializer(aux);
-                DependencyService.Get<ISound>().Play(aux);
+                DependencyService.Get<ISound>().Initializer(model.Url);
+                DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage++;
             }else if(toogleImage == 1)
             {
                 btnPlay.Image = "play.png";
-                DependencyService.Get<ISound>().Play(aux);
+                DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage--;
             }
         }
         private void ButtonRecord_Clicked(object sender, EventArgs e)
         {
-            DependencyService.Get<ISound>().RecordAudio(aux);
+          //  DependencyService.Get<ISound>().RecordAudio(aux);
             
            
 

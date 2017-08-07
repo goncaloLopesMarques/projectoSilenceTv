@@ -16,3 +16,21 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence\o
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence\obj\Debug\Silence.Views.PlayerView.xaml.g.cs
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence\obj\Debug\Silence.dll
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence\obj\Debug\Silence.pdb
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Silence.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Silence.pdb
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Core.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Platform.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Core.pdb
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Core.xml
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.csprojResolveAssemblyReference.cache
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.MainPage.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.App.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.HomePage.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.Gravacoes.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.PlayerView.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.pdb
