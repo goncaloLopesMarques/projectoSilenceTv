@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:customRenderer="clr-namespace:Silence;assembly=Silence"
              x:Class="Silence.Views.PlayerView"
-             Title="Player">
+             Title="Ouvir Emissão">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout x:Name="layoutLabel"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <customRenderer:SwipeableImage x:Name="SwipeableImage" Source="audio.jpg" Aspect="AspectFill" Grid.Row="0"></customRenderer:SwipeableImage>
+                <Label x:Name="Emissor" Grid.Row="1" Text="-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="30" ></Label>
+            </Grid>
             <Button x:Name="playBtn"
                 BackgroundColor="White"
                 WidthRequest="150"
@@ -20,7 +28,6 @@
                  Clicked="ButtonRecord_Clicked"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand" />
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

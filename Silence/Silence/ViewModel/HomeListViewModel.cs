@@ -21,24 +21,24 @@ namespace Silence.ViewModel
         {
              page = typeof(PlayerView);
              refreshCommand = new Command(RefreshListView);
-          
         }
 
         public string Name { get; set; }
         public string Type { get; set; }
         public string Url { get; set; }
         public string Image { get; set; }
-
+        public int index { get; set; }
 
         private HomeListViewModel selectedItem { get; set; }
         public HomeListViewModel SelectedItem
         {
-            get
+        get
             {
                 return selectedItem;
             }
             set
             {
+                
                 selectedItem = value;
 
                 // When your item is selected, you can open a new "PageDetail" and pass the value

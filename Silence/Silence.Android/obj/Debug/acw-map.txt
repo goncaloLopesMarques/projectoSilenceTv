@@ -2,6 +2,10 @@ Silence.Droid.MainActivity, Silence.Android;md5779bc1990b9cb568807b52a6922406c7.
 Silence.Droid.MainActivity, Silence.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5779bc1990b9cb568807b52a6922406c7.MainActivity
 Silence.Droid.MainActivity;md5779bc1990b9cb568807b52a6922406c7.MainActivity
 silence.droid.MainActivity;md5779bc1990b9cb568807b52a6922406c7.MainActivity
+Silence.Droid.SwipeableDroidImageRenderer, Silence.Android;md5779bc1990b9cb568807b52a6922406c7.SwipeableDroidImageRenderer
+Silence.Droid.SwipeableDroidImageRenderer, Silence.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5779bc1990b9cb568807b52a6922406c7.SwipeableDroidImageRenderer
+Silence.Droid.SwipeableDroidImageRenderer;md5779bc1990b9cb568807b52a6922406c7.SwipeableDroidImageRenderer
+silence.droid.SwipeableDroidImageRenderer;md5779bc1990b9cb568807b52a6922406c7.SwipeableDroidImageRenderer
 Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver/IListenerImplementor, ExoPlayer;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
 Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver+IListenerImplementor, ExoPlayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor
 Com.Google.Android.Exoplayer2.Audio.AudioCapabilitiesReceiver.IListenerImplementor;mono.com.google.android.exoplayer2.audio.AudioCapabilitiesReceiver_ListenerImplementor

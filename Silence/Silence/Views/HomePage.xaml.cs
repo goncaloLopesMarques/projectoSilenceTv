@@ -29,9 +29,9 @@ namespace Silence.Views
             TvList.SetBinding(ListView.IsRefreshingProperty, nameof(viewModel.IsBusy));
 
             elements = new ObservableCollection<HomeListViewModel>();
-            elements.Add(new HomeListViewModel { Name= "Player1", Type ="emissão", Url = "http://192.168.1.64:8080", Image ="tv.png" });
-            elements.Add(new HomeListViewModel { Name = "Player2", Type = "emissão", Url = "http://192.168.1.64:8181", Image = "tv.png" });
-            elements.Add(new HomeListViewModel { Name = "Player3", Type = "emissão", Url = "http://192.168.1.169:8080", Image = "tv.png" });
+            elements.Add(new HomeListViewModel { Name= "Player1", Type ="emissão", Url = "http://192.168.1.64:8080", Image ="tv.png", index = 0});
+            elements.Add(new HomeListViewModel { Name = "Player2", Type = "emissão", Url = "http://192.168.1.64:8181", Image = "tv.png", index = 1});
+            elements.Add(new HomeListViewModel { Name = "Player3", Type = "emissão", Url = "http://192.168.1.169:8080", Image = "tv.png", index = 2});
             TvList.ItemsSource = elements;
             
         }
@@ -42,8 +42,13 @@ namespace Silence.Views
         }
         public HomeListViewModel firstElement
         {
-            get { return elements.ElementAt(0); }
+            get { return elements.First(); }
             
+        }
+        public HomeListViewModel lastElement
+        {
+            get { return elements.Last(); }
+
         }
     }
 }

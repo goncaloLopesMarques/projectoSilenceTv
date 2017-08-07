@@ -17,22 +17,53 @@ namespace Silence.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PlayerView : ContentPage
     {
-
-        //private String aux = "http://192.168.1.169:8080";
         private String aux;
         private int toogleImage = 0;
         private Button btnPlay;
+        private HomePage homeAux;
+        private HomeListViewModel model;
 
         public PlayerView(HomeListViewModel selectedItem)
         {
             InitializeComponent();
-            aux = selectedItem.Url;
-            btnPlay = playBtn;
-            var label = new Label { Text = "Emissor:"+selectedItem.Name, TextColor = Color.FromHex("#77d065"), FontSize = 20 };
-             layoutLabel.Children.Add(label);
+            homeAux = new HomePage();
+            model = selectedItem;
+            Emissor.Text = model.Name;
+            SwipeableImage.SwipedLeft += (sender, args) => {
+                if (model == homeAux.lastElement)
+                {
+                    return;
+                }
+                else
+                {
+                    var indexaux = model.index;
+                    indexaux +=1;
+                    model = homeAux.elements.ElementAt(indexaux);
+                }
+                Emissor.Text = model.Name;
+            };
+            SwipeableImage.SwipedRight += (sender, args) => {
+                if (model == homeAux.firstElement)
+                {
+                    return;
+                }
+                else
+                {
+                    var indexaux = model.index;
+                    indexaux-=1;
+                    model = homeAux.elements.ElementAt(indexaux);
+                }
 
+                Emissor.Text = model.Name;
+            };
+
+            aux = model.Url;
+            btnPlay = playBtn;
+
+           
         }
-        
+       
+
         private void ButtonPlay_Clicked(object sender, EventArgs e)
         {
             if(toogleImage == 0)

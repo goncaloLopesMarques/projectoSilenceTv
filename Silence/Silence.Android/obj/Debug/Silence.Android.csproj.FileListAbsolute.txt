@@ -81,3 +81,4 @@ C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.A
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\pause.png
+C:\Users\goncalo\documents\visual studio 2017\Projects\Silence\Silence\Silence.Android\obj\Debug\res\drawable\audio.png
