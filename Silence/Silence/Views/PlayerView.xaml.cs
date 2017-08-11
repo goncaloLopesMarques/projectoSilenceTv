@@ -19,8 +19,10 @@ namespace Silence.Views
     {
         private int toogleImage = 0;
         private Button btnPlay;
+        private Button btnRecord;
         private HomePage homeAux;
         private HomeListViewModel model;
+        
 
         public PlayerView(HomeListViewModel selectedItem)
         {
@@ -79,18 +81,44 @@ namespace Silence.Views
                 DependencyService.Get<ISound>().Initializer(model.Url);
                 DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage++;
+
             }else if(toogleImage == 1)
             {
                 btnPlay.Image = "play.png";
                 DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage--;
+                btnRecord.Image = "record.png";
+                btnRecord.Text = "Gravar";
+                //parar de gravar
             }
         }
         private void ButtonRecord_Clicked(object sender, EventArgs e)
         {
-          //  DependencyService.Get<ISound>().RecordAudio(aux);
+            btnRecord = recordBtn;
+            if (btnPlay.Image == "stop.png")
+            {
+                if (toogleImage == 0)
+                {
+                    btnRecord.Image = "record.png";
+                    btnRecord.Text = "Gravar";
+                    toogleImage++;
+                }
+                else if (toogleImage == 1)
+                {
+                    btnRecord.Image = "stop_record.png";
+                    //  DependencyService.Get<ISound>().RecordAudio(aux);
+                    btnRecord.Text = "Gravando...";
+                    toogleImage--;
+                }
+            }
+            else
+            {
+                DisplayAlert("Alerta", "Nenhuma emissão para gravar", "OK");
+            }
             
-           
+            
+
+
 
         }
     }

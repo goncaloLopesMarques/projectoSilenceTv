@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-07T17:16:53.026</Modified>
+      <Modified>2017-08-10T18:20:57.553</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence.UWP\bin\x86\Debug\Silence.UWP.exe">
       <PackagePath>entrypoint\Silence.UWP.exe</PackagePath>
-      <Modified>2017-08-07T17:16:52.146</Modified>
+      <Modified>2017-08-10T18:20:55.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pedro\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\Silence.dll">
       <PackagePath>Silence.dll</PackagePath>
-      <Modified>2017-08-07T16:16:51.817</Modified>
+      <Modified>2017-08-10T18:16:35.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence.UWP\Assets\audio.png">
       <PackagePath>Assets\audio.png</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence.UWP\bin\x86\Debug\Core\Silence.UWP.exe">
       <PackagePath>Silence.UWP.exe</PackagePath>
-      <Modified>2017-08-07T17:16:53.023</Modified>
+      <Modified>2017-08-10T18:20:57.517</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

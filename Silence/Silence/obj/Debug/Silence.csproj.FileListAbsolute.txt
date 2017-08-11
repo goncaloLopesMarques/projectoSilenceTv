@@ -52,3 +52,5 @@ D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Si
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.PlayerView.xaml.g.cs
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.dll
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.pdb
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.Settings.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.About.xaml.g.cs

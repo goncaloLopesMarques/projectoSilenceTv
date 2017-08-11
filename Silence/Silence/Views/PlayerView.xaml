@@ -20,7 +20,8 @@
 
                 <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" VerticalOptions="Start">
 
-                    <Button Text="Record"
+                    <Button x:Name="recordBtn"
+                    Text="Gravar"
                     Clicked="ButtonRecord_Clicked"
                     HorizontalOptions="Center"
                     VerticalOptions="Start"

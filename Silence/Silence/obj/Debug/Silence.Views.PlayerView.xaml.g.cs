@@ -22,6 +22,9 @@ namespace Silence.Views {
         private global::Xamarin.Forms.Label Emissor;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button recordBtn;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button playBtn;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -29,6 +32,7 @@ namespace Silence.Views {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PlayerView));
             SwipeableImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Silence.SwipeableImage>(this, "SwipeableImage");
             Emissor = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "Emissor");
+            recordBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "recordBtn");
             playBtn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "playBtn");
         }
     }
