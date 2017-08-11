@@ -11,7 +11,7 @@
             <StackLayout Orientation="Vertical">
                 <StackLayout BackgroundColor="#e74c3c"
                      HeightRequest="75">
-                    <Label Text="Some Text title"
+                    <Label Text="Silence Tv v2"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
                  TextColor="White"

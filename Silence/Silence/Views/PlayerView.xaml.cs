@@ -75,7 +75,7 @@ namespace Silence.Views
         {
             if(toogleImage == 0)
             {
-                btnPlay.Image = "pause.png";
+                btnPlay.Image = "stop.png";
                 DependencyService.Get<ISound>().Initializer(model.Url);
                 DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage++;

@@ -3,31 +3,51 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:customRenderer="clr-namespace:Silence;assembly=Silence"
              x:Class="Silence.Views.PlayerView"
-             Title="Ouvir Emissão">
+             Title="Ouvir Emissão"
+              BackgroundColor="White">
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                <customRenderer:SwipeableImage x:Name="SwipeableImage" Source="audio.jpg" Aspect="AspectFill" Grid.Row="0"></customRenderer:SwipeableImage>
-                <Label x:Name="Emissor" Grid.Row="1" Text="-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="30" ></Label>
-            </Grid>
-            <Button x:Name="playBtn"
-                BackgroundColor="White"
-                WidthRequest="150"
-                HeightRequest="150"
-                Image="play.png"
-                BorderColor="Black"                    
-                Clicked="ButtonPlay_Clicked"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical"  HorizontalOptions="FillAndExpand" >
+            
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <customRenderer:SwipeableImage x:Name="SwipeableImage" Source="audio.jpg" Aspect="AspectFill" Grid.Row="0"></customRenderer:SwipeableImage>
+                    <Label x:Name="Emissor" Grid.Row="1" Text="-" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" FontSize="30" ></Label>
+                </Grid>
 
-            <Button Text="Record"
-                 Clicked="ButtonRecord_Clicked"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" VerticalOptions="Start">
+
+                    <Button Text="Record"
+                    Clicked="ButtonRecord_Clicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    Image="record.png" 
+                    BackgroundColor="White"
+                    BorderRadius="0"
+                    BorderWidth="0"
+                    Margin="0"
+                    
+                    />
+
+                    <Button x:Name="playBtn"
+                    Image="play.png"                  
+                    Clicked="ButtonPlay_Clicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    BackgroundColor="White"
+                    BorderRadius="0"
+                    BorderWidth="0"
+                    Margin="0"
+                    
+                    />
+
+
+
+                </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

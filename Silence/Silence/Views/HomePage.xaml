@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Silence.Views.HomePage"
-             Title="Emissoes">
+             Title="Emissões">
     <ContentPage.Content>
         <ListView x:Name="TvList" RowHeight="60" IsPullToRefreshEnabled="True"
                   RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}"

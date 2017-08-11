@@ -27,14 +27,19 @@ namespace Silence
             // Here you can define title for item, 
             // icon on the left side, and page that you want to open after selection
             var page1 = new MasterPageItem() { Title = "Ouvir Emissão", Icon = "play.png", TargetType = typeof(Silence.Views.PlayerView) };
-            var page2 = new MasterPageItem() { Title = "Gravaçoes", Icon = "folder.png", TargetType = typeof(Silence.Views.Gravacoes) };
+            var page2 = new MasterPageItem() { Title = "Gravações", Icon = "folder.png", TargetType = typeof(Silence.Views.Gravacoes) };
             var page3 = new MasterPageItem() { Title = "Emissões", Icon = "home.png", TargetType = typeof(Silence.Views.HomePage) };
+            var page4 = new MasterPageItem() { Title = "Configurações", Icon = "settings.png", TargetType = typeof(Silence.Views.Settings) };
+            var page5 = new MasterPageItem() { Title = "Sobre", Icon = "about.png", TargetType = typeof(Silence.Views.About) };
+
 
 
             // Adding menu items to menuList
             MenuList.Add(page1);
             MenuList.Add(page2);
             MenuList.Add(page3);
+            MenuList.Add(page4);
+            MenuList.Add(page5);
 
 
             // Setting our list to be ItemSource for ListView in MainPage.xaml
