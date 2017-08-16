@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\audio.png" />
+    <Content Include="Assets\face.png" />
     <Content Include="Assets\folder.png" />
     <Content Include="Assets\home.png" />
     <Content Include="Assets\pause.png" />

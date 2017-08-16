@@ -4,7 +4,8 @@
              x:Class="Silence.Views.HomePage"
              Title="Emissões">
     <ContentPage.Content>
-        <ListView x:Name="TvList" RowHeight="60" IsPullToRefreshEnabled="True"
+        <StackLayout>
+            <ListView x:Name="TvList" RowHeight="60" IsPullToRefreshEnabled="True"
                   RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}"
                    SelectedItem="{Binding SelectedItem}">
             <ListView.ItemTemplate>
@@ -21,5 +22,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+            <Button x:Name="FacebookButton"
+             Text="Log FaceBook"
+             Clicked="ButtonFace_Clicked"
+             WidthRequest ="100"
+             HeightRequest = "50"
+             HorizontalOptions="Start"
+             VerticalOptions="Start"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

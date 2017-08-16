@@ -23,6 +23,7 @@ using Android.Util;
 using Java.IO;
 using Silence.Views;
 
+
 [assembly: Dependency(typeof(AudioImplementation))]
 namespace Silence.Droid
 {
