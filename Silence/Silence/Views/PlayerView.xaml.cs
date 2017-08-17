@@ -85,10 +85,10 @@ namespace Silence.Views
             }else if(toogleImage == 1)
             {
                 btnPlay.Image = "play.png";
-                DependencyService.Get<ISound>().Play(model.Url);
+                DependencyService.Get<ISound>().Pause();
                 toogleImage--;
-                btnRecord.Image = "record.png";
-                btnRecord.Text = "Gravar";
+               // btnRecord.Image = "record.png";
+              //  btnRecord.Text = "Gravar";
                 //parar de gravar
             }
         }

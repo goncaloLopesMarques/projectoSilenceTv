@@ -5,30 +5,24 @@
              Title="Emissões">
     <ContentPage.Content>
         <StackLayout>
+            <Label x:Name="nameLabel"></Label>
             <ListView x:Name="TvList" RowHeight="60" IsPullToRefreshEnabled="True"
                   RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}"
                    SelectedItem="{Binding SelectedItem}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
-                            <Image Source="{Binding Image}" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50"/>
-                            <StackLayout Orientation="Vertical">
-                                <Label Text="{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="1,1,400,40"/>
-                                <Label Text="{Binding Type}" AbsoluteLayout.LayoutBounds="70,75,200,35"/>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+                                <Image Source="{Binding Image}" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="1,1,400,40"/>
+                                    <Label Text="{Binding Type}" AbsoluteLayout.LayoutBounds="70,75,200,35"/>
+                                </StackLayout>
                             </StackLayout>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-            <Button x:Name="FacebookButton"
-             Text="Log FaceBook"
-             Clicked="ButtonFace_Clicked"
-             WidthRequest ="100"
-             HeightRequest = "50"
-             HorizontalOptions="Start"
-             VerticalOptions="Start"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Silence.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,8 @@ namespace Silence
         public App()
         {
             InitializeComponent();
-
-            MainPage = new Silence.MainPage();
+            MainPage = new LoginPage();
+            //MainPage = new Silence.MainPage();
         }
 
         protected override void OnStart()

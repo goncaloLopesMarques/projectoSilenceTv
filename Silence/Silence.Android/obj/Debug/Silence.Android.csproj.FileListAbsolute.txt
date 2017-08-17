@@ -343,3 +343,5 @@ D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\obj\Debug\android\asse
 D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\obj\Debug\res\drawable\face.png
 D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.Android.dll.config
 D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Silence.dll.config
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Newtonsoft.Json.dll
+D:\SilenceTv1.0\projectoSilenceTv\Silence\Silence.Android\bin\Debug\Newtonsoft.Json.xml
