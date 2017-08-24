@@ -13,7 +13,7 @@ namespace Silence
         public App()
         {
             InitializeComponent();
-            MainPage = new LoginPage();
+            MainPage = new MainPage();
             //MainPage = new Silence.MainPage();
         }
 

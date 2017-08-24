@@ -28,7 +28,7 @@ namespace Silence.Views
 
         private void ButtonSkip_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new MainPage();
+            ((MasterDetailPage)Application.Current.MainPage).Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
         }
 
         private void ButtonFaceBook_Clicked(object sender, EventArgs e)
@@ -41,13 +41,17 @@ namespace Silence.Views
             webView.Navigated += WebViewOnNavigated;
             Content = webView;
         }
-        
+
         private async void WebViewOnNavigated(object sender, WebNavigatedEventArgs e)
         {
             var accessToken = ExtractAccessTokenFromUrl(e.Url);
             if (accessToken != null)
             {
                 await GetFacebookProfileAsync(accessToken);
+            }
+            if (FacebookModel.Instance.ListLogin.Count == 0)
+            {
+                await DisplayAlert("Alerta", "Bem vindo a Silence TVapp " + FacebookModel.Instance.ListLogin.First().name, "OK");
             }
         }
         public async Task GetFacebookProfileAsync(string accessToken)
@@ -72,7 +76,8 @@ namespace Silence.Views
             FacebookModel.Instance.ListLogin.Add(fb);
             webView.IsVisible = false;
             webView = null;
-            Application.Current.MainPage = new MainPage();
+            ((MasterDetailPage)Application.Current.MainPage).Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
+           // Application.Current.MainPage = new MainPage();
         }
         private string ExtractAccessTokenFromUrl(string url)
         {

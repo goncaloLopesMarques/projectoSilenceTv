@@ -48,24 +48,29 @@ namespace Silence
 
             // Initial navigation, this can be used for our home page
 
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Silence.Views.HomePage)));
+             //Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
+            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(LoginPage)));
 
         }
      
         private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
             var item = (MasterPageItem)e.SelectedItem;
             Type page = item.TargetType;
-
-            if (page == typeof(PlayerView)) {
+            if (page == typeof(PlayerView))
+            {
+                if (aux2.elements.Count == 0)
+                {
+                    DisplayAlert("Alerta", "Não ha emissoes disponiveis", "OK");
+                    return;
+                }
                 Detail = new NavigationPage((Page)Activator.CreateInstance(page, aux2.firstElement));
             }
             else
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(page));
             }
-           
+
             IsPresented = false;
         }
     }
