@@ -41,7 +41,41 @@ namespace Silence.Views
             //TvList.ItemsSource = elements;
             //Consumir um webserver rest
             iniciarLigacao();
+            getPublicity();
+            if (PublicityModel.Instance.ListPublicity.Count != 0)
+            {
+                showPublicity();
+            }
+            
         }
+
+        private void showPublicity()
+        {
+            DisplayAlert("PUBLICIDADE", PublicityModel.Instance.PickRandomPublicity().PublicidadeToString(), "OK");
+        }
+
+        private async void getPublicity()
+        {
+            try
+            {
+                var client = new HttpClient();
+                client.BaseAddress = new Uri("http://188.250.27.84:3000/");
+                var response = await client.GetAsync("publicidade/");
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    var publicidade = JsonConvert.DeserializeObject<List<Publicity>>(responseString);
+                    PublicityModel.Instance.ListPublicity = publicidade;
+                    client.Dispose();
+                }
+                client.Dispose();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("aviso", ex.Message, "ok");
+            }
+        }
+
         private async void iniciarLigacao()
         {
             try
@@ -54,7 +88,9 @@ namespace Silence.Views
                     var responseString = await response.Content.ReadAsStringAsync();
                     var emissor = JsonConvert.DeserializeObject<List<HomeListViewModel>>(responseString);
                     TvList.ItemsSource = emissor;
+                    client.Dispose();
                 }
+                client.Dispose();
             }
             catch (Exception ex)
             {
