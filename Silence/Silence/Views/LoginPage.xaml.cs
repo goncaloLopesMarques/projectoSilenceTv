@@ -49,7 +49,7 @@ namespace Silence.Views
             {
                 await GetFacebookProfileAsync(accessToken);
             }
-            if (FacebookModel.Instance.ListLogin.Count == 0)
+            if (FacebookModel.Instance.ListLogin.Count != 0)
             {
                 await DisplayAlert("Alerta", "Bem vindo a Silence TVapp " + FacebookModel.Instance.ListLogin.First().name, "OK");
             }
