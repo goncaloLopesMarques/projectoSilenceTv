@@ -22,7 +22,7 @@ namespace Silence.Views
         private Button btnRecord;
         private HomePage homeAux;
         private HomeListViewModel model;
-        
+
 
         public PlayerView(HomeListViewModel selectedItem)
         {
@@ -40,7 +40,7 @@ namespace Silence.Views
                 {
                     DependencyService.Get<ISound>().StopStreamOnSwiping();
                     var indexaux = model.index;
-                    indexaux +=1;
+                    indexaux += 1;
                     model = homeAux.elements.ElementAt(indexaux);
                     btnPlay.Image = "play.png";
                     toogleImage = 0;
@@ -57,7 +57,7 @@ namespace Silence.Views
                 {
                     DependencyService.Get<ISound>().StopStreamOnSwiping();
                     var indexaux = model.index;
-                    indexaux-=1;
+                    indexaux -= 1;
                     model = homeAux.elements.ElementAt(indexaux);
                     btnPlay.Image = "play.png";
                     toogleImage = 0;
@@ -66,29 +66,30 @@ namespace Silence.Views
                 Emissor.Text = model.Name;
             };
 
-            
+
             btnPlay = playBtn;
 
-           
+
         }
-       
+
 
         private void ButtonPlay_Clicked(object sender, EventArgs e)
         {
-            if(toogleImage == 0)
+            if (toogleImage == 0)
             {
                 btnPlay.Image = "stop.png";
                 DependencyService.Get<ISound>().Initializer(model.Url);
                 DependencyService.Get<ISound>().Play(model.Url);
                 toogleImage++;
 
-            }else if(toogleImage == 1)
+            }
+            else if (toogleImage == 1)
             {
                 btnPlay.Image = "play.png";
                 DependencyService.Get<ISound>().Pause();
                 toogleImage--;
-               // btnRecord.Image = "record.png";
-              //  btnRecord.Text = "Gravar";
+                // btnRecord.Image = "record.png";
+                //  btnRecord.Text = "Gravar";
                 //parar de gravar
             }
         }
@@ -100,14 +101,14 @@ namespace Silence.Views
                 if (toogleImage == 0)
                 {
                     btnRecord.Image = "record.png";
-                    btnRecord.Text = "Gravar";
+                    btnRecord.Text = AppResources.RecordBtn;
                     toogleImage++;
                 }
                 else if (toogleImage == 1)
                 {
                     btnRecord.Image = "stop_record.png";
                     //  DependencyService.Get<ISound>().RecordAudio(aux);
-                    btnRecord.Text = "Gravando...";
+                    btnRecord.Text = AppResources.RecordingBtn;
                     toogleImage--;
                 }
             }
@@ -115,8 +116,8 @@ namespace Silence.Views
             {
                 DisplayAlert("Alerta", "Nenhuma emissão para gravar", "OK");
             }
-            
-            
+
+
 
 
 

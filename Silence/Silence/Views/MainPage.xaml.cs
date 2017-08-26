@@ -8,6 +8,7 @@ using Silence.MenuItems;
 using Silence.ViewModel;
 using Silence.Views;
 
+
 namespace Silence
 {
     public partial class MainPage : MasterDetailPage
@@ -26,17 +27,18 @@ namespace Silence
             }
 
             MenuList = new List<MasterPageItem>();
+
             aux = new HomeListViewModel();
             aux2 = new HomePage();
-           
+
             // Creating our pages for menu navigation
             // Here you can define title for item, 
             // icon on the left side, and page that you want to open after selection
-            var page1 = new MasterPageItem() { Title = "Ouvir Emissão", Icon = "play.png", TargetType = typeof(Silence.Views.PlayerView) };
-            var page2 = new MasterPageItem() { Title = "Gravações", Icon = "folder.png", TargetType = typeof(Silence.Views.Gravacoes) };
-            var page3 = new MasterPageItem() { Title = "Emissões", Icon = "home.png", TargetType = typeof(Silence.Views.HomePage) };
-            var page4 = new MasterPageItem() { Title = "Configurações", Icon = "settings.png", TargetType = typeof(Silence.Views.Settings) };
-            var page5 = new MasterPageItem() { Title = "Sobre", Icon = "about.png", TargetType = typeof(Silence.Views.About) };
+            var page1 = new MasterPageItem() { Title = AppResources.Listen, Icon = "play.png", TargetType = typeof(Silence.Views.PlayerView) };
+            var page2 = new MasterPageItem() { Title = AppResources.Recordings, Icon = "folder.png", TargetType = typeof(Silence.Views.Gravacoes) };
+            var page3 = new MasterPageItem() { Title = AppResources.Broadcasts, Icon = "home.png", TargetType = typeof(Silence.Views.HomePage) };
+            var page4 = new MasterPageItem() { Title = AppResources.Settings, Icon = "settings.png", TargetType = typeof(Silence.Views.Settings) };
+            var page5 = new MasterPageItem() { Title = AppResources.About, Icon = "about.png", TargetType = typeof(Silence.Views.About) };
 
 
 
@@ -54,11 +56,11 @@ namespace Silence
 
             // Initial navigation, this can be used for our home page
 
-             //Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
+            //Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(HomePage)));
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(LoginPage)));
 
         }
-     
+
         private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = (MasterPageItem)e.SelectedItem;

@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:customRenderer="clr-namespace:Silence;assembly=Silence"
+             xmlns:translator="clr-namespace:Silence.Helpers"
              x:Class="Silence.Views.PlayerView"
-             Title="Ouvir Emissão"
+             Title="{translator:Translate PlayerTitle}"
               BackgroundColor="White">
     
     <ContentPage.Content>
@@ -21,7 +22,7 @@
                 <StackLayout Orientation="Horizontal"  HorizontalOptions="Start" VerticalOptions="Start">
 
                     <Button x:Name="recordBtn"
-                    Text="Gravar"
+                    Text="{translator:Translate RecordBtn}"
                     Clicked="ButtonRecord_Clicked"
                     HorizontalOptions="Center"
                     VerticalOptions="Start"

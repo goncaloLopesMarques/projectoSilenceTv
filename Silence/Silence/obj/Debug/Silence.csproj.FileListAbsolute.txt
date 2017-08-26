@@ -115,3 +115,6 @@ D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Si
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.Primitives.xml
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.csproj.App.config
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.LoginPage.xaml.g.cs
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.AppResources.resources
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.AppResources.pt.resources
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.csproj.GenerateResource.Cache
