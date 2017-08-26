@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+about.png
 Assets\audio.png
 Assets\face.png
 Assets\folder.png
@@ -38,5 +39,19 @@ Assets\Wide310x150Logo.scale-125.png
 Assets\Wide310x150Logo.scale-150.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png
+audio.png
 Silence.UWP.xr.xml
+face.png
+folder.png
+home.png
+ic_launcher.png
+icon.png
+pause.png
+play.png
 Properties\Default.rd.xml
+record.png
+settings.png
+stop.png
+stop_record.png
+tape.png
+tv.png

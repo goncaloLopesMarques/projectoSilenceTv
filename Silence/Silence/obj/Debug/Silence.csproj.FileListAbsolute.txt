@@ -104,3 +104,14 @@ D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Si
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.LoginPage.xaml.g.cs
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.dll
 D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.pdb
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\Silence.dll.config
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\Newtonsoft.Json.dll
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.dll
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.Extensions.dll
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.Primitives.dll
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\Newtonsoft.Json.xml
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.xml
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.Extensions.xml
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\bin\Debug\System.Net.Http.Primitives.xml
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.csproj.App.config
+D:\SilenceTv1.0\projectoSilenceTv\projectoSilenceTv\projectoSilenceTv\Silence\Silence\obj\Debug\Silence.Views.LoginPage.xaml.g.cs

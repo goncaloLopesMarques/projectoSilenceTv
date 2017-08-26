@@ -2,6 +2,7 @@
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "Newtonsoft.Json": "10.0.3",
+    "Plugin.MediaManager": "0.4.4",
     "System.Net.Http": "4.3.2",
     "Xamarin.Forms": "2.3.4.247"
   },

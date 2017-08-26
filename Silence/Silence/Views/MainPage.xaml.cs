@@ -19,6 +19,12 @@ namespace Silence
         public MainPage()
         {
             InitializeComponent();
+
+            if (Device.RuntimePlatform == Device.Windows)
+            {
+                MasterBehavior = MasterBehavior.Popover;
+            }
+
             MenuList = new List<MasterPageItem>();
             aux = new HomeListViewModel();
             aux2 = new HomePage();

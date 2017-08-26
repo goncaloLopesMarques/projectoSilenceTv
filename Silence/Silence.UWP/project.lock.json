@@ -350,6 +350,17 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -2704,6 +2715,17 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -5168,6 +5190,17 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -7674,6 +7707,17 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10145,6 +10189,17 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -12657,6 +12712,17 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        }
+      },
       "runtime.any.System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -15128,6 +15194,17 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.MediaManager/0.4.4": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Plugin.MediaManager.Abstractions.dll": {},
+          "lib/uap10.0/Plugin.MediaManager.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -17680,6 +17757,39 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Plugin.MediaManager/0.4.4": {
+      "sha512": "ptF+JXeDdrWZy9BBZbbvKPBPVkiqykp+hXRl8KTMdZhFWcf9K106STL+VrAWAj0SSr3IXo8ZJoKnQTZbAmiGuw==",
+      "type": "package",
+      "path": "plugin.mediamanager/0.4.4",
+      "files": [
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.Abstractions.xml",
+        "lib/MonoAndroid/Plugin.MediaManager.dll",
+        "lib/MonoAndroid/Plugin.MediaManager.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.Mac/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.Mac/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.dll",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.Abstractions.xml",
+        "lib/Xamarin.tvOS/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.MediaManager.xml",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.dll",
+        "lib/uap10.0/Plugin.MediaManager.Abstractions.xml",
+        "lib/uap10.0/Plugin.MediaManager.XML",
+        "lib/uap10.0/Plugin.MediaManager.dll",
+        "lib/uap10.0/Plugin.MediaManager.pdb",
+        "lib/uap10.0/Properties/Plugin.MediaManager.UWP.rd.xml",
+        "plugin.mediamanager.0.4.4.nupkg.sha512",
+        "plugin.mediamanager.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -24065,26 +24175,27 @@
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "Newtonsoft.Json >= 10.0.3",
+      "Plugin.MediaManager >= 0.4.4",
       "System.Net.Http >= 4.3.2",
       "Xamarin.Forms >= 2.3.4.247"
     ],
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\goncalo\\.nuget\\packages\\": {}
+    "C:\\Users\\Pedro\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
+      "projectUniqueName": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
       "projectName": "Silence.UWP",
-      "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
-      "projectJsonPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\project.json",
+      "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\Silence.UWP.csproj",
+      "projectJsonPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj": {
-              "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj"
+            "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj": {
+              "projectPath": "D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Silence\\Silence.csproj"
             }
           }
         }
@@ -24093,6 +24204,7 @@
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
       "Newtonsoft.Json": "10.0.3",
+      "Plugin.MediaManager": "0.4.4",
       "System.Net.Http": "4.3.2",
       "Xamarin.Forms": "2.3.4.247"
     },

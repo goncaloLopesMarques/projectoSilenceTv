@@ -11,7 +11,8 @@
 namespace Silence {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\SilenceTv1.0\\projectoSilenceTv\\Silence\\Silence\\Views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\SilenceTv1.0\\projectoSilenceTv\\projectoSilenceTv\\projectoSilenceTv\\Silence\\Sil" +
+        "ence\\Views\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
